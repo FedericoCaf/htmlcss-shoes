@@ -12,13 +12,11 @@ html{
   scroll-behavior: smooth;
 }
 
-
 header{
   position:fixed;
   z-index: 500;
   width: 100%;
 }
-
 
 header ul{
   text-align:right;
@@ -36,10 +34,10 @@ header ul li{
   border-radius: 50%;
 }
 
-header ul li:hover a{
-  text-shadow: 0 0 3px #FF0000;
+li:hover a{
+  box-shadow: 2px 2px 5px 1px;
+  border-radius: 50%;
 }
-
 
 a{
   display: inline-block;
@@ -51,21 +49,20 @@ a{
   height: 30px;
 }
 
-.container1{
+.container{
   position: relative;
   height: 100vh;
+}
+
+.container1{
   background-color: red;
 }
 
 .container2{
-  position: relative;
-  height: 100vh;
   background-color: green;
 }
 
 .container3{
-  position: relative;
-  height: 100vh;
   background-color: yellow;
 }
 
